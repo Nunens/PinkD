@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    tools:context="com.pinkd.pinkdadmin.LoginActivity"
+    android:background="@drawable/background2">
+
+    <ImageView
+        android:id="@+id/mythLogo"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true" />
+
+    <EditText
+        android:id="@+id/mythText"
+        android:hint="Myth"
+        android:maxLines="10"
+        android:layout_below="@+id/mythLogo"
+        style="@style/EditText" />
+
+    <Button
+        android:id="@+id/mythBtn"
+        style="@style/Button"
+        android:layout_alignParentBottom="true"
+        android:text="ADD MYTH" />
+
+</RelativeLayout>

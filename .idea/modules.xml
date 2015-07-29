@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Pind Drive/Pind Drive.iml" filepath="$PROJECT_DIR$/Pind Drive/Pind Drive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pink Admin/Pink Admin.iml" filepath="$PROJECT_DIR$/Pink Admin/Pink Admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pink'D.iml" filepath="$PROJECT_DIR$/Pink'D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PinkDrive/PinkDrive.iml" filepath="$PROJECT_DIR$/PinkDrive/PinkDrive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PinkLibrary/PinkLibrary.iml" filepath="$PROJECT_DIR$/PinkLibrary/PinkLibrary.iml" />
+    </modules>
+  </component>
+</project>
+

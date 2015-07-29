@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/examDate"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/DeepPink"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:text="24-04-2014"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/examStage"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/DeepPink"
+            android:layout_marginTop="40dp"
+            android:text="Tour"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/eventVenue"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/DeepPink"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/examStage"
+            android:text="Pretoria"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/eventText"
+            android:layout_width="wrap_content"
+            android:textSize="26dp"
+            android:textColor="@color/DeepPink"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Who is Mandela?"
+            android:layout_below="@+id/eventVenue"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>

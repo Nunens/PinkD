@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:background="@color/HotPink">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:contentDescription=""
+        android:src="@drawable/pinkdlogo" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon"
+        android:textColor="@color/list_item_title"
+        android:layout_marginLeft="5dp"
+        android:text="Pink Drive"
+        android:textSize="25dp"/>
+
+    <TextView android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/counter_text_color"
+        android:visibility="gone"/>
+
+</RelativeLayout>

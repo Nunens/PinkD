@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:background="@drawable/background2" android:layout_height="match_parent">
+    <ImageView
+        android:layout_above="@+id/step"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/step3"/>
+    <TextView
+        android:id="@+id/step"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/step"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="The above can be done while lying down flat, with your arm behind your head."/>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:background="@drawable/background2" android:layout_height="match_parent">
+    <ImageView
+        android:layout_above="@+id/step"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/step1"/>
+    <TextView
+        android:id="@+id/step"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/step"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="Place arm behind head, use the opposite hand and gently move your fingertips from point A to point B in circular movements. Feel for lumps, thickening or changes. Be thorough and also check the armpits. Repeat for the other side."/>
+</RelativeLayout>

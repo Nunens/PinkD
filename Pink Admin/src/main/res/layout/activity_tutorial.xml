@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    tools:context="com.pinkd.pinkdadmin.LoginActivity"
+    android:background="@drawable/background2">
+
+    <ImageView
+        android:id="@+id/loginLogo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        style="@style/Logo" />
+
+    <EditText
+        android:id="@+id/tutorialTopic"
+        android:hint="Tutorial Heading"
+        android:layout_below="@+id/loginLogo"
+        style="@style/EditText" />
+
+    <EditText
+        android:id="@+id/tutorialContext"
+        android:hint="Tutorial Content"
+        android:maxLines="10"
+        android:layout_below="@+id/tutorialTopic"
+        style="@style/EditText" />
+
+    <Button
+        android:id="@+id/tutorialBtn"
+        style="@style/Button"
+        android:layout_alignParentBottom="true"
+        android:text="ADD TUTORIAL" />
+
+</RelativeLayout>

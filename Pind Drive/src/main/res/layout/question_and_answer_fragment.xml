@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/background"
+        android:scaleType="center"
+        android:src="@drawable/qa2" />
+
+    <ImageView
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/mtn" />
+    <Button
+        android:id="@+id/add_question"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/circle_style"
+        android:text="+"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="50sp"/>
+
+    <ImageView
+        android:id="@+id/header2"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/footer"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.3"
+        android:src="@drawable/gogo" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_above="@+id/footer">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/fr_qq"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Question:"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/grey"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/fr_question_username"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="sipho kobue"
+                android:layout_below="@+id/fr_qq"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/grey"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/fr_question_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Hi,Was nice meeting you guys loved your idea.Actually i was working on something similar for my Finals but i will show it to you guys when am done by next year March."
+                android:layout_below="@+id/fr_question_username"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/fr_aa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Answer:"
+                android:layout_below="@+id/fr_question_text"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/grey"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/fr_question_adminname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="mpho malebane"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/fr_aa"
+                android:textColor="@color/grey"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/fr_question_answer_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="sipho kobue, ke lepyatla la llaas, so o dibala byang bra yaka, or bare mene nah"
+                android:layout_below="@+id/fr_question_adminname"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

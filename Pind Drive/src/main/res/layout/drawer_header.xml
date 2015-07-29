@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@color/DeepPink"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:id="@+id/lala"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/pinkdlogo"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/lal"
+        android:layout_toRightOf="@+id/lala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pink Drive"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:textSize="35sp"/>
+    <TextView
+        android:id="@+id/la"
+        android:layout_toRightOf="@+id/lala"
+        android:layout_below="@+id/lal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="it's moving"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"/>
+</RelativeLayout>

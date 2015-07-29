@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pinkd.pinkdrive.LoginActivity"
+    android:background="@drawable/background2">
+
+    <ImageView
+        android:id="@+id/loginLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/pinkdlogo"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        style="@style/Logo"/>
+    <EditText
+        android:id="@+id/regName"
+        android:singleLine="true"
+        android:inputType="text"
+        style="@style/EditText"
+        android:hint="Enter your fullname"
+        android:text=""
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/loginLogo"
+        android:textColor="@color/white"
+        android:background="@color/HotPink"/>
+    <EditText
+        android:id="@+id/regPhone"
+        android:inputType="text"
+        style="@style/EditText"
+        android:hint="Enter your contact number"
+        android:singleLine="true"
+        android:text=""
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/regName"
+        android:textColor="@color/white"
+        android:background="@color/HotPink"/>
+    <EditText
+        android:id="@+id/regEmail"
+        android:inputType="textEmailAddress"
+        style="@style/EditText"
+        android:hint="Enter your email address"
+        android:singleLine="true"
+        android:text=""
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/regPhone"
+        android:textColor="@color/white"
+        android:background="@color/HotPink"/>
+    <EditText
+        android:id="@+id/regPassword"
+        android:inputType="textPassword"
+        android:hint="Enter your password"
+        android:singleLine="true"
+        android:text=""
+        style="@style/EditText"
+        android:layout_below="@+id/regEmail"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:background="@color/HotPink"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerBtn"
+        android:layout_below="@+id/regPassword"
+        android:text="REGISTER"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:background="@color/DeepPink"/>
+    <ImageView
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/mtn" />
+</RelativeLayout>

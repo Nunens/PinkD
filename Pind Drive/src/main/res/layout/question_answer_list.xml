@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/questionContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/questionerName"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/DeepPink"
+            android:text="Nunens"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/questionDate"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/DeepPink"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:text="24-04-2014"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="wrap_content"
+            android:textSize="36dp"
+            android:textColor="@color/DeepPink"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="37dp"
+            android:text="Who is Mandela?"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/questionAnswers"
+        android:text="Answers (o)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/DeepPink"
+        android:layout_marginLeft="20dp"
+        android:textSize="25sp"
+        android:layout_below="@+id/questionContainer"/>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background"
+        android:layout_margin="10dp"
+        android:scaleType="center"
+        android:src="@drawable/tutorial2"/>
+
+    <ImageView
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/mtn" />
+    <ImageView
+        android:id="@+id/header2"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/gogo"
+        android:alpha="0.3"
+        android:layout_above="@+id/footer"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_above="@+id/footer">
+
+        <TextView
+            android:id="@+id/fr_tutorial_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </ScrollView>
+
+</RelativeLayout>

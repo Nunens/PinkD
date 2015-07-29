@@ -1,0 +1,47 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Framelayout to display Fragments -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:id="@+id/gogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:padding="30dp"
+                android:src="@drawable/gogo" />
+
+            <TextView
+                android:id="@+id/mythGogo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:background="@drawable/experiencebg"
+                android:padding="9dp"
+                android:text="did you know that Man was so cool it hurts???"
+                android:textColor="@color/DeepPink" />
+        </RelativeLayout>
+    <!-- Listview to display slider menu -->
+    <ListView
+        android:id="@+id/list_slidermenu"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/pinkDrivePink"
+        android:choiceMode="singleChoice"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector" />
+</android.support.v4.widget.DrawerLayout>
